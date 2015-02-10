@@ -27,8 +27,9 @@ graph [label="Tizen History (In Construction March, 2013)"]
 	{ rank = same; "2009"; "GENIVI Alliance"}
 	{ rank = same; "2010"; "HP"}
 	{ rank = same; "2011"; "Tizen Association"} //?
-	{ rank = same; "2012"; "Jolla"} //?
+	{ rank = same; "2011"; "Jolla Mobile"} //?
 	{ rank = same; "2012"; "LG"} //?
+	{ rank = same; "2011"; "Sailfish Alliance"} //?
 
 "Toyota" -> "Linux Foundation";
 "Intel" -> "GENIVI Alliance";
@@ -37,6 +38,7 @@ graph [label="Tizen History (In Construction March, 2013)"]
 "Canonical" -> "GENIVI Alliance";
 "Palm" -> "HP";
 "HP" -> "LG";
+"LiMo Foundation" -> "Tizen Association"};
 }
 
 /* Technologies */
@@ -72,6 +74,7 @@ graph [label="Tizen History (In Construction March, 2013)"]
 	"MeeGo 1.2 Harmattan" -> "MeeGo 1.2";
 	"SLP" -> "TizenMobile 1.0 Larkspur";
 	"Bada" -> "TizenMobile 2.0 Magnolia";
+	"LiMo4" -> "TizenMobile 2.0 Magnolia";
 	"TizenMobile 1.0 Larkspur" -> "TizenMobile 2.0 Magnolia";
 	"Ubuntu" -> "Ubuntu 9.04" -> "Ubuntu 11.04" -> "Ubuntu 11.10" -> "Ubuntu IVI Remix 1.0";
 	"Ubuntu 11.04" -> "Ubuntu IVI Remix pre-release" -> "Ubuntu IVI Remix 1.0";
@@ -98,7 +101,7 @@ graph [label="Tizen History (In Construction March, 2013)"]
 "Tizen Association" -> "TizenMobile 1.0 Larkspur";
 "Linux Foundation" -> "TizenIVI Preview";
 "Linux Foundation" -> "TizenMobile 1.0 Larkspur";
-"Jolla" -> "Sailfish OS";
+"Jolla Mobile" -> "Sailfish OS";
 "Palm" -> "webOS 1.0";
 "HP" -> "webOS 3.0";
 "HP" -> "Open webOS 1.0";
