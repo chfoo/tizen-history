@@ -38,7 +38,7 @@ graph [label="Tizen History (In Construction March, 2013)"]
 "Canonical" -> "GENIVI Alliance";
 "Palm" -> "HP";
 "HP" -> "LG";
-"LiMo Foundation" -> "Tizen Association"};
+"LiMo Foundation" -> "Tizen Association";
 }
 
 /* Technologies */
